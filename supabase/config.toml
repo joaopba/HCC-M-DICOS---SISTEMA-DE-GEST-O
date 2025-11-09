@@ -1,0 +1,58 @@
+project_id = "nnytrkgsjajsecotasqv"
+
+[functions.webhook-handler]
+verify_jwt = false
+
+[functions.get-medico-dados]
+verify_jwt = false
+
+[functions.get-relatorio-data]
+verify_jwt = false
+
+[functions.process-whatsapp-queue]
+verify_jwt = false
+
+[functions.processar-aprovacao]
+verify_jwt = false
+
+[functions.send-email-notification]
+verify_jwt = false
+
+[functions.send-notification-gestores]
+verify_jwt = false
+
+[functions.send-whatsapp-template]
+verify_jwt = false
+
+[functions.shorten-url]
+verify_jwt = false
+
+[functions.test-email]
+verify_jwt = false
+
+[functions.test-webhook]
+verify_jwt = false
+
+[functions.test-whatsapp-message]
+verify_jwt = false
+
+[functions.send-reminders-nota-pendente]
+verify_jwt = false
+
+[functions.process-ocr-nfse]
+verify_jwt = false
+
+[functions.send-daily-reminders]
+verify_jwt = false
+
+[functions.resend-nota-gestores]
+verify_jwt = false
+
+[functions.notify-gestores-nova-nota]
+verify_jwt = false
+
+[functions.force-notify-pending-note]
+verify_jwt = false
+
+[functions.remind-gestores-notas-pendentes]
+verify_jwt = false
